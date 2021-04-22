@@ -1,6 +1,6 @@
 {
   "name": "@mango/event-emitter",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "事件订阅发布库",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -11,6 +11,9 @@
     "README.md",
     "LICENSE"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "run-s clean lib",
     "clean": "rimraf lib esm",
