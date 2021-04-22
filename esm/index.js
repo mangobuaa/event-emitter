@@ -1,4 +1,2 @@
-export function add() {
-    return 1;
-}
+"use strict";
 //# sourceMappingURL=index.js.map

@@ -3,6 +3,14 @@
   "version": "0.0.1",
   "description": "事件订阅发布库",
   "main": "lib/index.js",
+  "module": "esm/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "esm",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "run-s clean lib",
     "clean": "rimraf lib esm",
@@ -14,7 +22,6 @@
   },
   "repository": {
     "type": "git",
-
     "url": "git+https://github.com/mangobuaa/event-emitter.git"
   },
   "keywords": [
